@@ -4,7 +4,7 @@
 This project aims to demonstrate the use of Matlab's system identification toolbox in developing dynamic models of an Arduino-Based  aero-mechatronic system. The system is compsized of two propellers mounted on a pivoting arm, along with Arduino-Nano-ITO and a battery pack. It is operated wirelessly via local WiFi network using Matlab's Simulink Arduino support package. Except for the 3D printed arm and stand, all other components are commerically available, allowing easy replication of the experiment. Additionally, a Simmechanics model replicates the hardware-based experience for users who prefer virtual experimentation. 
 
 
-<img src="image or animation path here" width="600">
+<img src="BiNano.jpg" width="600">
 
 ## Learning Goals
 - ENIKO TO FILL OUT
