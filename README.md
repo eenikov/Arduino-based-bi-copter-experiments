@@ -7,9 +7,9 @@ This project aims to demonstrate the use of Matlab's system identification toolb
 <img src="BiNano.jpg" width="600">
 
 ## Learning Goals
-- ENIKO TO FILL OUT
-- .....
-- ....
+- Selection of bandwidth and amplitude of the test input that leads to be most relevant model. 
+- Seletion of a noise model and its order, i.e. how to  choose the model order using physical and numerical considerations
+- Learn how to design closed-loop controllers using PID and state space-based approaches 
 
 ## Setup
 - [Bi-copter 3D printing instructions](https://www.youtube.com/watch?v=3kPK0pJ30wg)
