@@ -7,9 +7,10 @@ This project aims to demonstrate the use of Matlab's system identification toolb
 <img src="BiNano.jpg" width="600">
 
 ## Learning Goals
-- Selection of bandwidth and amplitude of the test input that leads to be most relevant model. 
-- Seletion of a noise model and its order, i.e. how to  choose the model order using physical and numerical considerations
-- Learn how to design closed-loop controllers using PID and state space-based approaches 
+- Obtain linaer dynamic models from input-output data. Examples inlucde autoregressive models with exogenous input (ARX), state space model based on N4SID subspace method.
+- Investigate the the effect of bandwidth and amplitude of the test input on the obtained model. 
+- Evaluate different model orders using physical and numerical considerations (creiteria such as autocorrelelation and cross correlation of the resiudual)
+- Learn how to design closed-loop controllers using PID and state space-based approaches. 
 
 ## Setup
 - [Bi-copter 3D printing instructions](https://www.youtube.com/watch?v=3kPK0pJ30wg)
