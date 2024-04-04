@@ -1,7 +1,6 @@
 # System Identification and Control Design Experiments with the Arduino-Based Bi-Copter Hardware 
 ## Eniko T Enkiov, University of Arizona
-## Melda Ulysoy, Mathworks Inc. 2024
-This project aims to demonstrate the use of Matlab's system identification toolbox in developing dynamic models of an Arduino-Based aero-mechatronic system. The system is comprised of two propellers mounted on a pivoting arm, along with Arduino-Nano-ITO and a battery pack. It is operated wirelessly via local WiFi network using Matlab's Simulink Arduino support package. Except for the 3D printed arm and stand, all other components are commercially available, allowing easy replication of the experiment. Additionally, a Simmechanics model replicates the hardware-based experience for users who prefer virtual experimentation.
+This project aims to demonstrate the use of MATLAB's system identification toolbox in developing dynamic models of an Arduino-Based aero-mechatronic system. The system is comprised of two propellers mounted on a pivoting arm, along with Arduino-Nano-ITO and a battery pack. It is operated wirelessly via local WiFi network using MATLAB's Simulink Arduino support package. Except for the 3D printed arm and stand, all other components are commercially available, allowing easy replication of the experiment. Additionally, a Simmechanics model replicates the hardware-based experience for users who prefer virtual experimentation.
 <img src="BiNano.jpg" width="600">  
 
 https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a9a7-4af2-bafb-f2ca30b6aef8
