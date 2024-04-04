@@ -15,9 +15,15 @@ This project aims to demonstrate the use of Matlab's system identification toolb
 -Download the controller circuit board files [PCB.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/PCB.zip) and place an order with [https://jlcpcb.com/](https://jlcpcb.com/) to produce a PCB with the motor drivers. You will need to purchase the reaming parts from AMAZON.COM and assemble the pendulum per the instructions in the video below.
 -  Download the bill of materials/parts [BOM.xlsx](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/BOM.xlsx) and purchase from AMAZON or other vendor of your choice.
 - [Bi-copter assembly instructions](https://www.youtube.com/watch?v=vzXoB-3JaGU)
-- Download and install low-cost hardware support packages
- * [Simulink Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#simulink)
- * [MATLAB Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#matlab)
+- Download and install low-cost hardware support packages:
+  * [Simulink Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#simulink)
+  * [MATLAB Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#matlab)
+ 
+## Experiments with the physical hardware (based on Livescript and threee Simulink models operating the bi-Copter
+- Download PhysicalExperiments.zip file and launch XXX. Follow instructions with the script. Run section by section.
+
+## Experiments with a Simmechanics Model (alternative to the physical experiment)
+- Download SimulationExperiments.zip file and launch XXX.  Follow instructions with the Live Scropt. Run section by section.
 
 ## Additional Resources
 - [System Identification Tech Talks](https://www.mathworks.com/videos/series/system-identification.html)
