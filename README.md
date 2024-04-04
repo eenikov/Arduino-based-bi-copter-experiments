@@ -11,7 +11,7 @@ This project aims to demonstrate the use of Matlab's system identification toolb
 - Learn how to design closed-loop controllers using PID and state space-based approaches. 
 
 ## Setup
-- [Bi-copter 3D printing instructions](https://www.youtube.com/watch?v=3kPK0pJ30wg)
+- [Bi-copter 3D printing instructions](https://www.youtube.com/watch?v=3kPK0pJ30wg) (Download <SolidWorksFiles.zip> and pring Stand, Arms, and 2x Bearing Caps)
 - [Bi-copter assembly instructions](https://www.youtube.com/watch?v=vzXoB-3JaGU)
 - Download and install low-cost hardware support packages
  * [Simulink Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#simulink)
