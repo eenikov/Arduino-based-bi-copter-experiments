@@ -25,7 +25,7 @@ https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a
 - Download [BiCopterLive.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/BiCopterLive.zip) file and launch BiCopterLive.mlx live script. Follow instructions with the script. Run section by section.
 
 ## Experiments with a SimMechanics Model (alternative to the physical experiment)
-- Download SimMechanics.zip file and launch XXX. live script. Follow instructions with the Live Scropt. Run section by section.
+- Download [SimMechanics.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/SimMechanics.zip) file and launch BiCopter_Simulation.mlx  live script. Follow instructions with the Live Scropt. Run section by section.
 
 ## Additional Resources
 - [System Identification Tech Talks](https://www.mathworks.com/videos/series/system-identification.html)
