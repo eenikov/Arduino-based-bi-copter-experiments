@@ -3,7 +3,7 @@
 ## Melda Ulysoy, Mathworks Inc. 2024
 This project aims to demonstrate the use of Matlab's system identification toolbox in developing dynamic models of an Arduino-Based aero-mechatronic system. The system is comprised of two propellers mounted on a pivoting arm, along with Arduino-Nano-ITO and a battery pack. It is operated wirelessly via local WiFi network using Matlab's Simulink Arduino support package. Except for the 3D printed arm and stand, all other components are commercially available, allowing easy replication of the experiment. Additionally, a Simmechanics model replicates the hardware-based experience for users who prefer virtual experimentation.
 <img src="BiNano.jpg" width="600">
-<img src="bicopterassm_final.avi" width="600">
+
 
 ## Learning Goals
 - Obtain linear dynamic models from input-output data. Examples inlucde autoregressive models with exogenous input (ARX), state space model based on N4SID subspace method.
