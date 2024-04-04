@@ -7,7 +7,7 @@ This project aims to demonstrate the use of Matlab's system identification toolb
 <img src="BiNano.jpg" width="600">
 
 ## Learning Goals
-- Obtain linaer dynamic models from input-output data. Examples inlucde autoregressive models with exogenous input (ARX), state space model based on N4SID subspace method.
+- Obtain linear dynamic models from input-output data. Examples inlucde autoregressive models with exogenous input (ARX), state space model based on N4SID subspace method.
 - Investigate the the effect of bandwidth and amplitude of the test input on the obtained model. 
 - Evaluate different model orders using physical and numerical considerations (creiteria such as autocorrelelation and cross correlation of the resiudual)
 - Learn how to design closed-loop controllers using PID and state space-based approaches. 
