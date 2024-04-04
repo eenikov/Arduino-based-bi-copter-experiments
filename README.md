@@ -19,11 +19,11 @@ This project aims to demonstrate the use of Matlab's system identification toolb
   * [Simulink Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#simulink)
   * [MATLAB Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#matlab)
  
-## Experiments with the physical hardware (based on Livescript and threee Simulink models operating the bi-Copter
+## Experiments with the physical hardware (based on Livescript and three Simulink models operating the Bi-Copter
 - Download [BiCopterLive.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/BiCopterLive.zip) file and launch BiCopterLive.mlx live script. Follow instructions with the script. Run section by section.
 
-## Experiments with a Simmechanics Model (alternative to the physical experiment)
-- Download SimulationExperiments.zip file and launch XXX.  Follow instructions with the Live Scropt. Run section by section.
+## Experiments with a SimMechanics Model (alternative to the physical experiment)
+- Download SimMechanics.zip file and launch XXX. live script. Follow instructions with the Live Scropt. Run section by section.
 
 ## Additional Resources
 - [System Identification Tech Talks](https://www.mathworks.com/videos/series/system-identification.html)
