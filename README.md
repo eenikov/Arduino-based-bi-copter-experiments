@@ -12,7 +12,8 @@ This project aims to demonstrate the use of Matlab's system identification toolb
 
 ## Setup
 - [Bi-copter 3D printing instructions](https://www.youtube.com/watch?v=3kPK0pJ30wg) (Download [SolidWorksFiles.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/SolidWorksFiles.zip) and print  Stand, Arms, and 2x Bearing Caps using a 3D printer of your choice.)
--Download the controller circuit board files [PCB.zip]() and place an order with [https://jlcpcb.com/](https://jlcpcb.com/)
+-Download the controller circuit board files [PCB.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/PCB.zip) and place an order with [https://jlcpcb.com/](https://jlcpcb.com/) to produce a PCB with the motor drivers. You will need to purchase the reaming parts from AMAZON.COM and assemble the pendulum per the instructions in the video below.
+-  Download the [list of parts]() and purchase from AMAZON or other vendor of your choice.
 - [Bi-copter assembly instructions](https://www.youtube.com/watch?v=vzXoB-3JaGU)
 - Download and install low-cost hardware support packages
  * [Simulink Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#simulink)
