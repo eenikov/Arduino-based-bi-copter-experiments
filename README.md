@@ -1,6 +1,6 @@
 # System Identification and Control Design Experiments with the Arduino-Based Bi-Copter Hardware 
 ## Eniko T Enkiov, University of Arizona
-This project aims to demonstrate the use of MATLAB's system identification toolbox in developing dynamic models of an Arduino-Based aero-mechatronic system. The system is comprised of two propellers mounted on a pivoting arm, along with Arduino Nano 33 IoT and a battery pack. It is operated wirelessly via local WiFi network using MATLAB's Simulink Arduino support package. Except for the 3D printed arm and stand, all other components are commercially available, allowing easy replication of the experiment. Additionally, a Simmechanics model Simmechanics model replicates the hardware-based experience for users who prefer virtual experimentation.
+This project aims to demonstrate the use of MATLAB's system identification toolbox in developing dynamic models of an Arduino-Based aero-mechatronic system. The system is comprised of two propellers mounted on a pivoting arm, along with Arduino Nano 33 IoT and a battery pack. It is operated wirelessly via local WiFi network using MATLAB's Simulink Arduino support package. Except for the 3D printed arm and stand, all other components are commercially available, allowing easy replication of the experiment. Additionally, a Simscape model replicates the hardware-based experience for users who prefer virtual experimentation.
 <img src="BiNano.jpg" width="775">  
 
 https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a9a7-4af2-bafb-f2ca30b6aef8
@@ -23,7 +23,7 @@ https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a
 ## Experiments with the physical hardware (based on Livescript and three Simulink models operating the Bi-Copter
 - Download [BiCopterLive.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/BiCopterLive.zip) file and launch BiCopterLive.mlx live script. Follow instructions with the script. Run section by section.
 
-## Experiments with a SimMechanics Model (alternative to the physical experiment)
+## Experiments with a Simscape Model (alternative to the physical experiment)
 - Download [SimMechanics.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/SimMechanics.zip) file and launch BiCopter_Simulation.mlx  live script. Follow instructions with the Live Scropt. Run section by section.
 
 ## Additional Resources
