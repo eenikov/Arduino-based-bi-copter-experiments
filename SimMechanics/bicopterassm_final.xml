@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/04/24||09:42:55" using="Simscape Multibody Link Version 7.4" from="SolidWorks 31.2.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="bicopterassm_proprs_mot_bat" uid="bicopterassm_proprs_mot_bat" version="262">
+<AssemblyFile name="bicopterassm_proprs_mot_bat.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="arms-1" uid="arms-1" entityUid="arms*:*Default">
+<Transform>
+<Rotation>0.99557610411180153 0.093958612812064551 0 -0.093958612812064551 0.99557610411180153 0 0 0 1</Rotation>
+<Translation>0.022524625616202488 0.086523801933520411 0.12466660639348789</Translation>
+</Transform>
+</Instance>
+<Instance name="PropellerRED-2" uid="PropellerRED-2" entityUid="PropellerRED*:*Default">
+<Transform>
+<Rotation>0.52534788174002311 0.093958612812064524 0.84568397302402698 -0.049580296280901742 0.99557610411180142 -0.079812374618635787 -0.84944181517745443 1.2064347708786728e-16 0.52768229326748428</Rotation>
+<Translation>0.11446255159676559 0.10281007678564637 0.12466716958719802</Translation>
+</Transform>
+</Instance>
+<Instance name="PCB-1" uid="PCB-1" entityUid="PCB*:*Default">
+<Transform>
+<Rotation>0.99557610411180142 -1.1590366453789147e-16 -0.093958612812064704 -0.093958612812064704 2.1777079451370548e-16 -0.99557610411180142 1.358523605564041e-16 1 2.0591725165147138e-16</Rotation>
+<Translation>0.027353829618322136 0.11519690344035322 0.24933321278697607</Translation>
+</Transform>
+</Instance>
+<Instance name="arduino nano-2" uid="arduino nano-2" entityUid="arduino nano" rigid="true">
+<Transform>
+<Rotation>0.99557610411180142 0.093958612812064954 0 -0.093958612812064954 0.99557610411180142 1.4571169719857686e-15 1.3585236055640428e-16 -1.4507705304249109e-15 1</Rotation>
+<Translation>0.0071077894362233957 0.11896586679227585 0.13390112689163805</Translation>
+</Transform>
+<Instance name="smt_resistor222-9" uid="smt_resistor222-9" entityUid="smt_resistor222*:*Default">
+<Transform>
+<Rotation>-1.1102230246251563e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 1.1102230246251568e-16</Rotation>
+<Translation>0.036749999999999991 0 -0.011999999999999997</Translation>
+</Transform>
+</Instance>
+<Instance name="smt_resistor222-7" uid="smt_resistor222-7" entityUid="smt_resistor222*:*Default">
+<Transform>
+<Rotation>-1.1102230246251563e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 1.1102230246251568e-16</Rotation>
+<Translation>0.0081999999999999955 0 -0.0025999999999999912</Translation>
+</Transform>
+</Instance>
+<Instance name="MINIUSB - MEASURED-1" uid="MINIUSB - MEASURED-1" entityUid="MINIUSB - MEASURED" rigid="true">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.038979999999999987 0.0016499999999999987 -0.0076199999999999879</Translation>
+</Transform>
+<Instance name="MINIUSBCORE-1" uid="MINIUSBCORE-1" entityUid="MINIUSBCORE*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 -4.4408920985006242e-16 -1.0000000000000002</Rotation>
+<Translation>0 0 0.0066999999999999942</Translation>
+</Transform>
+</Instance>
+<Instance name="MINIUSBSHELL-1" uid="MINIUSBSHELL-1" grounded="true" entityUid="MINIUSBSHELL*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="MINI USB CONTACT-1" uid="MINI USB CONTACT-1" entityUid="MINI USB CONTACT*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.5265566588595883e-16 0 0 -1.0000000000000002</Rotation>
+<Translation>-0.0016000000000000042 0 0.0056999999999999933</Translation>
+</Transform>
+</Instance>
+<Instance name="MINI USB CONTACT-2" uid="MINI USB CONTACT-2" entityUid="MINI USB CONTACT*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.5265566588595883e-16 0 0 -1.0000000000000002</Rotation>
+<Translation>-0.00079999999999999516 0 0.0056999999999999933</Translation>
+</Transform>
+</Instance>
+<Instance name="MINI USB CONTACT-5" uid="MINI USB CONTACT-5" entityUid="MINI USB CONTACT*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.5265566588595883e-16 0 0 -1.0000000000000002</Rotation>
+<Translation>0.0015999999999999903 0 0.0056999999999999933</Translation>
+</Transform>
+</Instance>
+<Instance name="MINI USB CONTACT-3" uid="MINI USB CONTACT-3" entityUid="MINI USB CONTACT*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.5265566588595883e-16 0 0 -1.0000000000000002</Rotation>
+<Translation>0 0 0.0056999999999999933</Translation>
+</Transform>
+</Instance>
+<Instance name="MINI USB CONTACT-4" uid="MINI USB CONTACT-4" entityUid="MINI USB CONTACT*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 1.5265566588595883e-16 0 0 -1.0000000000000002</Rotation>
+<Translation>0.00079999999999999516 0 0.0056999999999999933</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="cap106C-2" uid="cap106C-2" entityUid="cap106C*:*Default">
+<Transform>
+<Rotation>-1.6653345369377343e-16 0 -1 1.1102230246251565e-16 -1 0 -1 -1.1102230246251585e-16 1.6653345369377341e-16</Rotation>
+<Translation>0.007899999999999999 0 -0.0055999999999999939</Translation>
+</Transform>
+</Instance>
+<Instance name="smt_resistor222-8" uid="smt_resistor222-8" entityUid="smt_resistor222*:*Default">
+<Transform>
+<Rotation>-1.1102230246251563e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 1.1102230246251568e-16</Rotation>
+<Translation>0.036749999999999991 0 -0.0075999999999999956</Translation>
+</Transform>
+</Instance>
+<Instance name="189 RESISTOR PACK-1" uid="189 RESISTOR PACK-1" entityUid="189 RESISTOR PACK*:*Default">
+<Transform>
+<Rotation>2.2204460492503131e-16 0 1.0000000000000002 0 -1 0 1.0000000000000002 0 -2.2204460492503131e-16</Rotation>
+<Translation>0.015749999999999993 0 -0.010849999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="smt_resistor222-6" uid="smt_resistor222-6" entityUid="smt_resistor222*:*Default">
+<Transform>
+<Rotation>-1.1102230246251563e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 1.1102230246251568e-16</Rotation>
+<Translation>0.021859999999999997 0 -0.0089999999999999941</Translation>
+</Transform>
+</Instance>
+<Instance name="ftdi FT232rl-1" uid="ftdi FT232rl-1" entityUid="ftdi FT232rl*:*Default">
+<Transform>
+<Rotation>0 0 -1 1.1667163400913483e-15 -1 0 -1 -1.2222274913226056e-15 0</Rotation>
+<Translation>0.029050000000000006 0 -0.0076699999999999824</Translation>
+</Transform>
+</Instance>
+<Instance name="atmega328-1" uid="atmega328-1" entityUid="atmega328*:*Default">
+<Transform>
+<Rotation>-0.70710678118653858 0 -0.70710678118655645 0 1 0 0.70710678118655634 0 -0.70710678118653858</Rotation>
+<Translation>0.023850000000000003 0.0017499999999999877 -0.0076199999999999879</Translation>
+</Transform>
+</Instance>
+<Instance name="led-1" uid="led-1" entityUid="led*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0104 0.0016000000000000042 -0.0027999999999999969</Translation>
+</Transform>
+</Instance>
+<Instance name="led-3" uid="led-3" entityUid="led*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0104 0.0016000000000000042 -0.012499999999999983</Translation>
+</Transform>
+</Instance>
+<Instance name="16mhz crystal - measured-1" uid="16mhz crystal - measured-1" entityUid="16mhz crystal - measured*:*Default">
+<Transform>
+<Rotation>0.70710678118655657 0 -0.70710678118653858 0 1 0 0.70710678118653858 0 0.70710678118655645</Rotation>
+<Translation>0.018511343802041624 0.0016000000000000042 -0.0035541360081772777</Translation>
+</Transform>
+</Instance>
+<Instance name="nano-board-1" uid="nano-board-1" grounded="true" entityUid="nano-board*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="smt_resistor222-10" uid="smt_resistor222-10" entityUid="smt_resistor222*:*Default">
+<Transform>
+<Rotation>-1.1102230246251563e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 1.1102230246251568e-16</Rotation>
+<Translation>0.021860000000000004 0 -0.0057999999999999996</Translation>
+</Transform>
+</Instance>
+<Instance name="led-2" uid="led-2" entityUid="led*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.010399999999999998 0.0016000000000000181 -0.0055499999999999994</Translation>
+</Transform>
+</Instance>
+<Instance name="led-4" uid="led-4" entityUid="led*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0104 0.0016000000000000042 -0.0090499999999999886</Translation>
+</Transform>
+</Instance>
+<Instance name="cap106C-1" uid="cap106C-1" entityUid="cap106C*:*Default">
+<Transform>
+<Rotation>1.6653345369377348e-16 0 1.0000000000000002 0 -1 0 1.0000000000000002 0 -1.6653345369377348e-16</Rotation>
+<Translation>0.03719999999999999 0 -0.0032999999999999974</Translation>
+</Transform>
+</Instance>
+<Instance name="reset button-1" uid="reset button-1" entityUid="reset button" rigid="true">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.015250000000000003 0.0016000000000000042 -0.0080500000000000016</Translation>
+</Transform>
+<Instance name="reset shell-1" uid="reset shell-1" entityUid="reset shell*:*Default">
+<Transform>
+<Rotation>1.4398204850607499e-16 0 -1 0 1 0 1 0 1.4398204850607499e-16</Rotation>
+<Translation>0 0.0016499999999999987 0</Translation>
+</Transform>
+</Instance>
+<Instance name="reset core-1" uid="reset core-1" grounded="true" entityUid="reset core*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="nano - reg-1" uid="nano - reg-1" entityUid="nano - reg*:*Default">
+<Transform>
+<Rotation>-1.6653345369377348e-16 0 -1.0000000000000002 0 -1 0 -1.0000000000000002 0 1.6653345369377351e-16</Rotation>
+<Translation>0.0060999999999999978 0 -0.010160000000000002</Translation>
+</Transform>
+</Instance>
+<Instance name="NANO DIODE-1" uid="NANO DIODE-1" entityUid="NANO DIODE*:*Default">
+<Transform>
+<Rotation>1.6653345369377351e-16 0 1.0000000000000002 0 -1 0 1.0000000000000002 0 -1.6653345369377353e-16</Rotation>
+<Translation>0.011429999999999996 0 -0.0042000000000000093</Translation>
+</Transform>
+</Instance>
+<Instance name="102 RESISTOR PACK-1" uid="102 RESISTOR PACK-1" entityUid="102 RESISTOR PACK*:*Default">
+<Transform>
+<Rotation>2.2204460492503131e-16 0 1.0000000000000002 0 -1 0 1.0000000000000002 0 -2.2204460492503131e-16</Rotation>
+<Translation>0.015749999999999993 0 -0.0052000000000000102</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="motor-1" uid="motor-1" entityUid="motor*:*Default">
+<Transform>
+<Rotation>0.93372534193079482 -0.34543995847998332 -0.093958612812064954 -0.088121377675650175 0.032601283994851508 -0.99557610411180142 0.34697493948809272 0.93787440063541261 1.5962263250561503e-16</Rotation>
+<Translation>0.030346200919983215 0.10989227726992723 0.093438861839558934</Translation>
+</Transform>
+</Instance>
+<Instance name="stand-1" uid="stand-1" grounded="true" entityUid="stand*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.024215880646819662 0.0044441718075331135 0.12466660639348789</Translation>
+</Transform>
+</Instance>
+<Instance name="battery-1" uid="battery-1" entityUid="battery*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.056130155466984639 0.098439557813139497 0.08666660639348793</Translation>
+</Transform>
+</Instance>
+<Instance name="motor-2" uid="motor-2" entityUid="motor*:*Default">
+<Transform>
+<Rotation>0.95542706123787713 0.27987659732958398 -0.093958612812065426 -0.090169501805296703 -0.026413668161620822 -0.9955761041118012 -0.28112024402119873 0.95967255269777385 3.5735303605122226e-16</Rotation>
+<Translation>-0.15081065255778131 0.12698915874776737 0.14996742835539614</Translation>
+</Transform>
+</Instance>
+<Instance name="battery-2" uid="battery-2" entityUid="battery*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>0.032875348586152722 0.10063425632660446 0.08666660639348793</Translation>
+</Transform>
+</Instance>
+<Instance name="PropellerRED-1" uid="PropellerRED-1" entityUid="PropellerRED*:*Default">
+<Transform>
+<Rotation>0.98613728438810433 0.093958612812064052 -0.1367663533844776 -0.093067813601276486 0.99557610411180153 0.012907478183031066 0.13737408202107565 0 0.99051923837392819</Rotation>
+<Translation>-0.064742231055564994 0.11972272938725013 0.12466771819252218</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>stand-1</Uid>
+</InstancePath>
+<Position>0 0.10000000000000001 0.031165476220843896</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0 0.017999999999999988 0.06049999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stand-1</Uid>
+</InstancePath>
+<Position>-0.057499999999999989 0.01 0.060499999999999998</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0 0.017999999999999988 0.06049999999999997</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.090000000000000011 0.023999999999999994 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PropellerRED-1</Uid>
+</InstancePath>
+<Position>-3.153861767579702e-08 -0.00085258605772493834 -1.1180665682175572e-06</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.090000000000000011 0.023999999999999994 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PropellerRED-1</Uid>
+</InstancePath>
+<Position>-3.153861767579702e-08 -0.00085258605772493834 -1.1180665682175572e-06</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.089999999999999997 0.023999999999999994 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PropellerRED-2</Uid>
+</InstancePath>
+<Position>-3.1538617682735914e-08 -0.00085258605772495222 -1.1180665682453128e-06</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.090000000000000011 0.023999999999999994 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PropellerRED-2</Uid>
+</InstancePath>
+<Position>-3.1538617682735914e-08 -0.00085258605772495222 -1.1180665682453128e-06</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0 0.026000000000000009 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PCB-1</Uid>
+</InstancePath>
+<Position>-0.027113755263789861 -0.14516660639348788 0.0029999999999999888</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.030000000000000006 0.02899999999999997 -0.025500000000000009</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>PCB-1</Uid>
+</InstancePath>
+<Position>-0.027113755263789868 -0.15016660639348789 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.029999999999999999 0.025999999999999981 -0.025499999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>PCB-1</Uid>
+</InstancePath>
+<Position>-0.032113755263789873 -0.1041666063934879 0.0029999999999999888</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PCB-1</Uid>
+</InstancePath>
+<Position>-0.027113755263789861 -0.14516660639348788 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arduino nano-2</Uid>
+<Uid>ftdi FT232rl-1</Uid>
+</InstancePath>
+<Position>-0.0025000000000000022 0.0018500000000000044 0.0051000000000000038</Position>
+<Axis>4.0245584642661865e-16 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PropellerRED-1</Uid>
+</InstancePath>
+<Position>-3.153861767579702e-08 -0.00085258605772493834 -1.1180665682175572e-06</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.09205508025461373 0.00099999999999998701 -0.00343171169346973</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0.090000000000000011 0 0.023999999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.092440407802353824 0.024000000000000007 0.0040751576359953079</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>motor-1</Uid>
+</InstancePath>
+<Position>0.090000000000000011 0 0.023999999999999994</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>stand-1</Uid>
+</InstancePath>
+<Position>-0.057499999999999989 0.01 -0.060499999999999998</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0.009999999999999995 0.0025000000000000022</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.090000000000000011 0.023999999999999994 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>0.089999999999999997 0 0.022999999999999979</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PropellerRED-1</Uid>
+</InstancePath>
+<Position>-3.153861767579702e-08 -0.00085258605772493834 -1.1180665682175572e-06</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>motor-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.020750000000000008 0.0039999999999999897 0.038000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>battery-1</Uid>
+</InstancePath>
+<Position>-0.020750000000000011 0.075999999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.020750000000000008 0.0039999999999999897 0.038000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>battery-2</Uid>
+</InstancePath>
+<Position>-0.020750000000000005 0.075999999999999998 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Tangent name="Tangent4">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.020749999999999991 0.0039999999999999897 -0.036499999999999991</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>battery-2</Uid>
+</InstancePath>
+<Position>-0.020750000000000005 0.075999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent6">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.020749999999999991 0.0039999999999999897 -0.036499999999999991</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>battery-1</Uid>
+</InstancePath>
+<Position>-0.020750000000000011 0.075999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>-0.020750000000000008 0.0039999999999999897 0.038000000000000006</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>battery-2</Uid>
+</InstancePath>
+<Position>-0.020750000000000005 0.075999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Tangent name="Tangent8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>arms-1</Uid>
+</InstancePath>
+<Position>0.020749999999999991 0.0039999999999999897 0.038000000000000006</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>battery-1</Uid>
+</InstancePath>
+<Position>-0.020750000000000011 0.075999999999999998 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Tangent>
+<Distance name="Distance2">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>PCB-1</Uid>
+</InstancePath>
+<Position>0.022886244736210124 -0.099166606393487899 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arduino nano-2</Uid>
+<Uid>nano-board-1</Uid>
+</InstancePath>
+<Position>-0.003819999999999997 0 0.0013799999999999923</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance3">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>PCB-1</Uid>
+</InstancePath>
+<Position>-0.032113755263789859 -0.1041666063934879 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>arduino nano-2</Uid>
+<Uid>nano-board-1</Uid>
+</InstancePath>
+<Position>-0.0038200000000000005 0 -0.016619999999999982</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="arduino nano" uid="arduino nano" version="720">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="arduino nano.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="MINIUSB - MEASURED" uid="MINIUSB - MEASURED" version="176">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="MINIUSB - MEASURED.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="reset button" uid="reset button" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="reset button.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="102 RESISTOR PACK" uid="102 RESISTOR PACK*:*Default" version="281">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="102 RESISTOR PACK.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.6574182875551117e-06</Mass>
+<CenterOfMass>5.3728670923209444e-08 0.0002058995842896416 -7.1283958228336847e-10</CenterOfMass>
+<Inertia>2.0305385485972191e-12 6.9729886348684967e-12 5.1066261740899234e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="102 RESISTOR PACK_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Diffuse r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Specular r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31000000238418579</Shininess>
+</VisualProperties>
+</Part>
+<Part name="16mhz crystal - measured" uid="16mhz crystal - measured*:*Default" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="16mhz crystal - measured.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>8.7156690410459838e-06</Mass>
+<CenterOfMass>0 0.00035317637532474922 0</CenterOfMass>
+<Inertia>1.7400992392125458e-12 8.5936666054322822e-12 7.8106556778758482e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="16mhz crystal - measured_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Diffuse r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Specular r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31000000238418579</Shininess>
+</VisualProperties>
+</Part>
+<Part name="189 RESISTOR PACK" uid="189 RESISTOR PACK*:*Default" version="290">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="189 RESISTOR PACK.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.6576827220414257e-06</Mass>
+<CenterOfMass>6.8381831369755563e-08 0.00020591110896043535 -4.1103383350399485e-09</CenterOfMass>
+<Inertia>2.0305488115576969e-12 6.973037763066331e-12 5.1066971949579016e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="189 RESISTOR PACK_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Diffuse r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Specular r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31000000238418579</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MINI USB CONTACT" uid="MINI USB CONTACT*:*Default" version="259">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MINI USB CONTACT.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.6709730953306595e-05</Mass>
+<CenterOfMass>1.9581471733969944e-08 0.0013307259224187285 0.0018794750895109163</CenterOfMass>
+<Inertia>2.0329673353787136e-10 1.8724920152672245e-10 1.6803545452286087e-11 -4.3878443791266822e-11 8.8399780662512098e-16 5.2511210808431685e-16</Inertia>
+</MassProperties>
+<GeometryFile name="MINI USB CONTACT_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0.90980392156862744" b="0.61960784313725492" a="1"/>
+<Diffuse r="1" g="0.90980392156862744" b="0.61960784313725492" a="1"/>
+<Specular r="0.5" g="0.45490196078431372" b="0.30980392156862746" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.5</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MINIUSBCORE" uid="MINIUSBCORE*:*Default" version="246">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MINIUSBCORE.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.5987310045947305e-05</Mass>
+<CenterOfMass>0 0.0014242821988671667 0.0032951501864671054</CenterOfMass>
+<Inertia>4.7577556889629022e-10 7.9500330355963752e-10 4.8404602888293001e-10 3.3988970994754251e-11 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="MINIUSBCORE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.019607843429434533" g="0.019607843429434533" b="0.019607843429434533" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="MINIUSBSHELL" uid="MINIUSBSHELL*:*Default" version="813">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="MINIUSBSHELL.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00034097718175275251</Mass>
+<CenterOfMass>-7.511022461184213e-09 0.0020938289906913075 0.0023688613150235922</CenterOfMass>
+<Inertia>3.5683913801866019e-09 5.934070811836664e-09 3.6887018104535244e-09 -1.6236450294803276e-10 7.1014020688099089e-15 0</Inertia>
+</MassProperties>
+<GeometryFile name="MINIUSBSHELL_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.71843137254901968" g="0.71843137254901968" b="0.71843137254901968" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="NANO DIODE" uid="NANO DIODE*:*Default" version="283">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="NANO DIODE.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>7.3503695383146018e-06</Mass>
+<CenterOfMass>6.1780224102283888e-07 0.00062904536181388685 -8.1520174870122186e-09</CenterOfMass>
+<Inertia>2.8411839455331521e-12 8.4928505142722296e-12 7.9881538155207455e-12 0 0 -3.2508119123443212e-15</Inertia>
+</MassProperties>
+<GeometryFile name="NANO DIODE_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.31000000238418579</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PCB" uid="PCB*:*Default" version="109">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PCB.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0091156194490192334</Mass>
+<CenterOfMass>-0.0021137552637898681 -0.12466660639348788 0.0014999999999999998</CenterOfMass>
+<Inertia>1.958268409593466e-06 2.7070714917801558e-06 4.6516664722000931e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PCB_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="0.75294117647058822" b="0" a="1"/>
+<Diffuse r="0" g="0.75294117647058822" b="0" a="1"/>
+<Specular r="0" g="0.37647058823529411" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PropellerRED" uid="PropellerRED*:*Default" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PropellerRED.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00015930820951210356</Mass>
+<CenterOfMass>-1.1945755904718867e-08 0.00052988746198781198 -1.5056473750799767e-06</CenterOfMass>
+<Inertia>3.2916880963500438e-08 3.3111684236265346e-08 2.7673952015673113e-10 -1.2884875897262207e-14 -4.2218728916058279e-10 3.9798143024992008e-15</Inertia>
+</MassProperties>
+<GeometryFile name="PropellerRED_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="0" b="0" a="1"/>
+<Diffuse r="1" g="0" b="0" a="1"/>
+<Specular r="0.5" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="arms" uid="arms*:*Default" version="2325">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="arms.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.063001641654093554</Mass>
+<CenterOfMass>0 0.012933029268883222 0.00013247283507172625</CenterOfMass>
+<Inertia>5.230119999955381e-05 0.00011020576276225527 6.6019284560289048e-05 -9.2365040097289946e-08 -1.1083619698729075e-13 0</Inertia>
+</MassProperties>
+<GeometryFile name="arms_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="atmega328" uid="atmega328*:*Default" version="594">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="atmega328.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.2119656352672489e-05</Mass>
+<CenterOfMass>-1.890308035360076e-06 0.00046436960448400269 -3.4872373354825041e-06</CenterOfMass>
+<Inertia>2.4005409680961579e-10 4.7065433573863496e-10 2.400867504988857e-10 9.3730499803510936e-14 2.5155573999455701e-13 4.9678217441552455e-14</Inertia>
+</MassProperties>
+<GeometryFile name="atmega328_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="battery" uid="battery*:*Default" version="122">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="battery.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019552649761924005</Mass>
+<CenterOfMass>-0.020750000000000008 0.038000000000000006 0</CenterOfMass>
+<Inertia>9.72562050113333e-06 8.0128265707306108e-07 9.72562050113333e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="battery_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.85098039215686272" g="0.41176470588235292" b="1" a="1"/>
+<Diffuse r="0.85098039215686272" g="0.41176470588235292" b="1" a="1"/>
+<Specular r="0.42549019607843136" g="0.20588235294117646" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cap106C" uid="cap106C*:*Default" version="444">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="cap106C.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.9309422127237273e-06</Mass>
+<CenterOfMass>2.6135904864941912e-09 0.00089990745322827341 3.2040391809476978e-05</CenterOfMass>
+<Inertia>1.2253038856898259e-11 1.2095175486012293e-11 4.8564616594149764e-12 -2.3150434325597966e-13 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="cap106C_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.83921568627450982" b="0.82745098039215681" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.83921568627450982" b="0.82745098039215681" a="1"/>
+<Specular r="0.5792156764105254" g="0.58745097038792626" b="0.5792156764105254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="ftdi FT232rl" uid="ftdi FT232rl*:*Default" version="226">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="ftdi FT232rl.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.4093005945554469e-05</Mass>
+<CenterOfMass>-7.8158351610600182e-07 0.00095607114893221754 -1.7694182378508452e-06</CenterOfMass>
+<Inertia>8.1887534606602996e-10 1.0293660224471516e-09 2.5901954517124458e-10 1.4466786081559164e-13 2.9981191113999664e-13 6.3902367967603427e-14</Inertia>
+</MassProperties>
+<GeometryFile name="ftdi FT232rl_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="led" uid="led*:*Default" version="208">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="led.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>5.7933584059445951e-06</Mass>
+<CenterOfMass>5.6260811027014172e-12 0.00030330968137099519 2.5668752689930957e-11</CenterOfMass>
+<Inertia>9.4426670615758851e-13 4.2799088648787362e-12 3.9076415091459977e-12 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="led_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Diffuse r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Specular r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31000000238418579</Shininess>
+</VisualProperties>
+</Part>
+<Part name="motor" uid="motor*:*Default" version="119">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011961868852362926</Mass>
+<CenterOfMass>0.089999999999999997 0 0.012</CenterOfMass>
+<Inertia>6.1246605796735299e-08 6.1246605796735299e-08 9.504652697792862e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Diffuse r="0.7803921568627451" g="0.76078431372549016" b="0.74117647058823533" a="1"/>
+<Specular r="0.62431372549019615" g="0.60862745098039217" b="0.5929411764705883" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="nano - reg" uid="nano - reg*:*Default" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="nano - reg.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00040434092470236676</Mass>
+<CenterOfMass>-4.1673749180273681e-08 0.00072953335139679489 2.5182751676348546e-05</CenterOfMass>
+<Inertia>7.1269957347350311e-10 1.9240605064069e-09 1.3840161204667168e-09 3.6287533206541043e-12 1.7723024623019235e-15 1.4952571061900142e-14</Inertia>
+</MassProperties>
+<GeometryFile name="nano - reg_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.83921568627450982" b="0.82745098039215681" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.83921568627450982" b="0.82745098039215681" a="1"/>
+<Specular r="0.5792156764105254" g="0.58745097038792626" b="0.5792156764105254" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="nano-board" uid="nano-board*:*Default" version="251">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="nano-board.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035012384885221549</Mass>
+<CenterOfMass>0.017684588138117695 0.00085344430190480158 -0.00762</CenterOfMass>
+<Inertia>9.6853776393981318e-08 6.2753918230404826e-07 5.3286332108248232e-07 0 0 -8.7240898133948458e-10</Inertia>
+</MassProperties>
+<GeometryFile name="nano-board_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Diffuse r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Specular r="0.84705882352941175" g="0.84705882352941175" b="0.84705882352941175" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.31000000238418579</Shininess>
+</VisualProperties>
+</Part>
+<Part name="reset core" uid="reset core*:*Default" version="196">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="reset core.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.7454623990841988e-05</Mass>
+<CenterOfMass>-6.1899860917461343e-12 0.00081846100226436115 -8.2326489224964832e-11</CenterOfMass>
+<Inertia>1.4383694615719488e-11 3.1689249248482395e-11 2.6835223229544636e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="reset core_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Diffuse r="0.098039215686274508" g="0.098039215686274508" b="0.098039215686274508" a="1"/>
+<Specular r="0.019607843429434533" g="0.019607843429434533" b="0.019607843429434533" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000298023224</Shininess>
+</VisualProperties>
+</Part>
+<Part name="reset shell" uid="reset shell*:*Default" version="228">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="reset shell.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.2077251395305986e-05</Mass>
+<CenterOfMass>0 -0.00041235321656986709 0</CenterOfMass>
+<Inertia>3.6148810354591472e-11 5.8610690773452171e-11 3.1199542795949756e-11 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="reset shell_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.30000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="smt_resistor222" uid="smt_resistor222*:*Default" version="323">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="smt_resistor222.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>2.4247495015870838e-06</Mass>
+<CenterOfMass>0 0.0002940328968624946 0</CenterOfMass>
+<Inertia>2.4797563706003671e-12 2.8410094303263984e-12 4.8707390659404422e-13 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="smt_resistor222_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.68027450980392157" g="0.68027450980392157" b="0.68027450980392157" a="1"/>
+<Diffuse r="0.77043137254901961" g="0.77043137254901961" b="0.77043137254901961" a="1"/>
+<Specular r="0.18850980392156863" g="0.18850980392156863" b="0.18850980392156863" a="1"/>
+<Emissive r="0.163921568627451" g="0.163921568627451" b="0.163921568627451" a="1"/>
+<Shininess>0.13</Shininess>
+</VisualProperties>
+</Part>
+<Part name="stand" uid="stand*:*Default" version="468">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="stand.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.19170703123545643</Mass>
+<CenterOfMass>0 0.023230814609231536 0</CenterOfMass>
+<Inertia>0.00038572719411504174 0.00034740006261953558 0.00023190253315955069 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="stand_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.64313725490196072" g="0.61568627450980395" b="0.59999999999999998" a="1"/>
+<Diffuse r="0.45019607843137249" g="0.43098039215686273" b="0.41999999999999998" a="1"/>
+<Specular r="0.03215686274509804" g="0.0307843137254902" b="0.029999999999999999" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
