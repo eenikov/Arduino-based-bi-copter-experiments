@@ -21,7 +21,7 @@ https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a
   * [MATLAB Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#matlab)
  
 ## Experiments with the physical hardware (based on Livescript and three Simulink models operating the Bi-Copter
-- Download [Bicopter_Hardware_Experiments](https://github.com/eenikov/Arduino-based-bi-copter-experiments/tree/main/Bicopter_Hardware_Experiments) repository and launch BiCopterLive.mlx live script. Follow instructions with the script. Run section by section.
+- Download [Bicopter_Hardware_Experiments](https://github.com/eenikov/Arduino-based-bi-copter-experiments/tree/main/Bicopter_Hardware_Experiments) repository and launch Run_Bicopter_Experiments.mlx live script. Follow instructions with the script. Run section by section.
 
 ## Experiments with a Simscape Model (alternative to the physical experiment)
 - Download [Bicopter_Virtual_Experiments](https://github.com/eenikov/Arduino-based-bi-copter-experiments/tree/main/Bicopter_Virtual_Experiments) repository and launch BiCopter_Simulation.mlx  live script. Follow instructions with the Live Script. Run section by section.
