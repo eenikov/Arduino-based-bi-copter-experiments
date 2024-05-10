@@ -24,7 +24,7 @@ https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a
 - Download [Bicopter_Hardware_Experiments](https://github.com/eenikov/Arduino-based-bi-copter-experiments/tree/main/Bicopter_Hardware_Experiments) repository and launch BiCopterLive.mlx live script. Follow instructions with the script. Run section by section.
 
 ## Experiments with a Simscape Model (alternative to the physical experiment)
-- Download [SimMechanics.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/SimMechanics.zip) file and launch BiCopter_Simulation.mlx  live script. Follow instructions with the Live Scropt. Run section by section.
+- Download [Bicopter_Virtual_Experiments](https://github.com/eenikov/Arduino-based-bi-copter-experiments/tree/main/Bicopter_Virtual_Experiments) repository and launch BiCopter_Simulation.mlx  live script. Follow instructions with the Live Script. Run section by section.
 
 ## Additional Resources
 - [System Identification Tech Talks](https://www.mathworks.com/videos/series/system-identification.html)
