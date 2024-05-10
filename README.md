@@ -14,7 +14,7 @@ https://github.com/eenikov/BiCopter_SystemID_Project/assets/116908311/2a8902c1-a
 ## Setup
 - [Bi-copter 3D printing instructions](https://www.youtube.com/watch?v=3kPK0pJ30wg) (Download [SolidWorksFiles.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/SolidWorksFiles.zip) and print  Stand, Arms, and 2x Bearing Caps using a 3D printer of your choice.)
 -Download the controller circuit board files [PCB.zip](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/PCB.zip) and place an order with [https://jlcpcb.com/](https://jlcpcb.com/) to produce a PCB with the motor drivers. You will need to purchase the reaming parts from AMAZON.COM and assemble the pendulum per the instructions in the video below.
--  Download the bill of materials/parts [BOM.xlsx](https://github.com/eenikov/BiCopter_SystemID_Project/blob/main/BOM.xlsx) and purchase from AMAZON or other vendor of your choice.
+-  Download the bill of materials/parts [Bill_of_Materials.xlsx](https://github.com/eenikov/Arduino-based-bi-copter-experiments/blob/main/Bill_Of_Materials.xlsx) and purchase from AMAZON or other vendor of your choice.
 - [Follow the Bi-Copter assembly instructions](https://www.youtube.com/watch?v=vzXoB-3JaGU)
 - Download and install low-cost hardware support packages:
   * [Simulink Support Package for Arduino](https://www.mathworks.com/hardware-support/arduino.html#simulink)
